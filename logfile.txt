@@ -1,0 +1,48 @@
+2024-06-05T12:26:22.691+05:30  INFO 6100 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.2 with PID 6100 (D:\JAVA_OFFICE\demo\target\classes started by chama in D:\JAVA_OFFICE\demo)
+2024-06-05T12:26:22.694+05:30  INFO 6100 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-06-05T12:26:24.245+05:30  INFO 6100 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-05T12:26:24.265+05:30  INFO 6100 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-05T12:26:24.265+05:30  INFO 6100 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-05T12:26:24.360+05:30  INFO 6100 --- [demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-05T12:26:24.361+05:30  INFO 6100 --- [demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1585 ms
+2024-06-05T12:26:25.243+05:30  INFO 6100 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-05T12:26:25.255+05:30  INFO 6100 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.297 seconds (process running for 6.608)
+2024-06-05T12:26:38.383+05:30  INFO 6100 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05T12:26:38.383+05:30  INFO 6100 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-05T12:26:38.385+05:30  INFO 6100 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-05T12:26:38.442+05:30  INFO 6100 --- [demo] [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : get user list function
+2024-06-05T12:26:38.770+05:30  INFO 6100 --- [demo] [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Response: MonoFlatMap
+2024-06-05T12:29:46.543+05:30  INFO 3540 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.2 with PID 3540 (D:\JAVA_OFFICE\demo\target\classes started by chama in D:\JAVA_OFFICE\demo)
+2024-06-05T12:29:46.545+05:30  INFO 3540 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-06-05T12:29:47.497+05:30  INFO 3540 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-05T12:29:47.509+05:30  INFO 3540 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-05T12:29:47.510+05:30  INFO 3540 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-05T12:29:47.562+05:30  INFO 3540 --- [demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-05T12:29:47.562+05:30  INFO 3540 --- [demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 956 ms
+2024-06-05T12:29:48.046+05:30  INFO 3540 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-05T12:29:48.052+05:30  INFO 3540 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.047 seconds (process running for 2.966)
+2024-06-05T12:29:54.363+05:30  INFO 3540 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05T12:29:54.364+05:30  INFO 3540 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-05T12:29:54.366+05:30  INFO 3540 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-06-05T12:29:54.388+05:30  INFO 3540 --- [demo] [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : get user list function
+2024-06-05T12:29:54.522+05:30  INFO 3540 --- [demo] [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Response: MonoFlatMap
+2024-06-05T12:29:59.983+05:30 ERROR 3540 --- [demo] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+io.netty.resolver.dns.DnsNameResolverTimeoutException: [868: /8.8.8.8:53] DefaultDnsQuestion(roshantha.free.beeceptor.com. IN A) query '868' via UDP timed out after 5000 milliseconds (no stack trace available)
+
+2024-06-05T12:29:59.989+05:30 ERROR 3540 --- [demo] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientRequestException: Failed to resolve 'roshantha.free.beeceptor.com' [A(1), AAAA(28)] after 2 queries ] with root cause
+
+io.netty.resolver.dns.DnsNameResolverTimeoutException: [868: /8.8.8.8:53] DefaultDnsQuestion(roshantha.free.beeceptor.com. IN A) query '868' via UDP timed out after 5000 milliseconds (no stack trace available)
+
+2024-06-05T12:30:24.614+05:30  INFO 3540 --- [demo] [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : get user list function
+2024-06-05T12:30:24.615+05:30  INFO 3540 --- [demo] [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Response: MonoFlatMap
+2024-06-05T12:30:29.631+05:30 ERROR 3540 --- [demo] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+io.netty.resolver.dns.DnsNameResolverTimeoutException: [6571: /8.8.8.8:53] DefaultDnsQuestion(roshantha.free.beeceptor.com. IN AAAA) query '6571' via UDP timed out after 5000 milliseconds (no stack trace available)
+
+2024-06-05T12:30:29.631+05:30 ERROR 3540 --- [demo] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientRequestException: Failed to resolve 'roshantha.free.beeceptor.com' [A(1), AAAA(28)] after 2 queries ] with root cause
+
+io.netty.resolver.dns.DnsNameResolverTimeoutException: [6571: /8.8.8.8:53] DefaultDnsQuestion(roshantha.free.beeceptor.com. IN AAAA) query '6571' via UDP timed out after 5000 milliseconds (no stack trace available)
+
+2024-06-05T12:30:31.789+05:30  INFO 3540 --- [demo] [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : get user list function
+2024-06-05T12:30:31.790+05:30  INFO 3540 --- [demo] [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Response: MonoFlatMap
